@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QtWidgetsApplication1Class</class>
+ <widget class="QMainWindow" name="QtWidgetsApplication1Class">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>569</width>
+    <height>381</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QtWidgetsApplication1</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>569</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuNew">
+    <property name="title">
+     <string>New</string>
+    </property>
+    <addaction name="actionProject_3"/>
+   </widget>
+   <widget class="QMenu" name="menuOpen_2">
+    <property name="title">
+     <string>Open</string>
+    </property>
+    <addaction name="actionExisting_Project"/>
+   </widget>
+   <addaction name="menuNew"/>
+   <addaction name="menuOpen_2"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionProject">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../Downloads/folder-6-16.ico</normaloff>../../../../../Downloads/folder-6-16.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Project</string>
+   </property>
+  </action>
+  <action name="actionProject_2">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../Downloads/document-2-16.png</normaloff>../../../../../Downloads/document-2-16.png</iconset>
+   </property>
+   <property name="text">
+    <string>Project</string>
+   </property>
+  </action>
+  <action name="actionProject_3">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../Downloads/folder-6-16.ico</normaloff>../../../../../Downloads/folder-6-16.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Project</string>
+   </property>
+  </action>
+  <action name="actionExisting_Project">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../../Downloads/document-2-16.png</normaloff>../../../../../Downloads/document-2-16.png</iconset>
+   </property>
+   <property name="text">
+    <string>Existing Project</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="QtWidgetsApplication1.qrc"/>
+ </resources>
+ <connections/>
+</ui>
